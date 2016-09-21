@@ -1,7 +1,7 @@
 # Site navigation links
 
-- title: 项目
-  url: /projects/
+- title: 帖子
+  url: /posts/
 
 - title: 标签
   url: /tags/
