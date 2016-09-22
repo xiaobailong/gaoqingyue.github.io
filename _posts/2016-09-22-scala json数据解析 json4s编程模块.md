@@ -14,9 +14,9 @@ comments: true
 
 2. **引入依赖：**
 
-	import org.json4s.native.JsonMethods._ 	    //json to object
+	<pre><code> import org.json4s.native.JsonMethods._ 	    //json to object
 	import org.json4s.native.Serialization.write //object to json
-	import org.json4s.DefaultFormats
+	import org.json4s.DefaultFormats</code></pre>
 
 3. **json数据解析（String）：**
 
@@ -29,6 +29,6 @@ comments: true
 
 4. **class数据转成json数据：**
 
-	<pre><code>implicit val formats = DefaultFormats
+	<pre><code> implicit val formats = DefaultFormats
 	val data: History=Histroy(1,Map("1",1))
 	val json = write(data)</code></pre>
