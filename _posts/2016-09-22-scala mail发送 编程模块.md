@@ -40,7 +40,7 @@ comments: true
 	                        smtpConfig: SmtpConfig,
 	                        retryOn: FiniteDuration,
 	                        var deliveryAttempts: Int = 0)
-	---
+	
 	/**
 	 * Smtp config
 	 * @param tls if tls should be used with the smtp connections
@@ -56,7 +56,7 @@ comments: true
 	                      host: String,
 	                      user: String,
 	                      password: String)
-	---
+	
 	import org.apache.commons.mail.HtmlEmail
 	import org.apache.commons.mail.DefaultAuthenticator
 	import scala.concurrent.duration.FiniteDuration
